@@ -6,7 +6,7 @@ int pin = 2;
 void setup() {
   pinMode(pin, OUTPUT);
   Serial.begin(921600);
-  Serial.println('\nInitial Setup Complete\n');
+  Serial.println("\nInitial Setup Complete\n");
 }
 
 void loop() {
